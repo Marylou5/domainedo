@@ -1,0 +1,160 @@
+article{
+  width: clamp(200px,50%,600px);
+}
+
+
+/* Menu burger  */
+
+div {
+  width: 35px;
+  height: 5px;
+  background-color: #f74E2D;
+  margin: 6px 0;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Font du main */
+
+main {
+  font: inherit;
+
+}
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*  hover effect icon */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.button {
+font: inherit;
+font-weight: bold;
+border-color: #f74E2D;
+color: #f74E2D;
+background-color: white;
+}
+
+
+/* 2 blocks gris orange a modifié */
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+/* block gauche */
+
+h1{
+  font: inherit;
+  font-weight: bold;
+}
+
+ .shows_button {
+  background-color: black;
+  font: inherit;
+  font-weight: bold;
+  color: white;
+}
+
+.button_red{
+  background-color: #f74E2D;
+  font: inherit;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Liste deroulante age de l'enfant */
+
+label {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: .9rem;
+  padding: 2px 5px;
+}
+
+footer {
+  font-size: .8rem;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+/* block droit orange */
+
+.column_right {
+  background-color: #f74E2D;
+}
+
+/* deuxieme partie block shows*/
+
+#conteneur{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+
+
+.card2 {
+background-image: url(https://www.domainedo.fr/sites/default/files/styles/responsive-showbreakpoints_theme_ddobs_wide_1x/public/thumbnails/image/15_fatumata-diawaracecard.jpg?itok=u9MVdUDQ);
+font: inherit;
+}
+
+.card3 {
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/responsive-showbreakpoints_theme_ddobs_wide_1x/public/thumbnails/image/5_monstro-2calbertine-guillaume.jpg?itok=WzJRkmh-);
+  
+}
+
+.card4{
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/responsive-showbreakpoints_theme_domainedo_mobile_1x/public/thumbnails/image/vian-par-dslz-2200pxcpierrickguidou.jpg?itok=GiOdSQsU);
+  
+}
+
+
+
+.but1 {
+  background-color: white;
+  border-color: #f74E2D;
+  color: #f74E2D;
+  font: inherit;
+  font-weight: bold;
+
+}
+
+.but2 {
+  background-color: #f74E2D;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+}
+
+
+p{
+  color: #f74E2D;
+  font: inherit;
+
+}
